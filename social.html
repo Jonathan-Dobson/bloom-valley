@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no"
+    />
+    <title>Bloom Valley Nursery</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/font-style.css" />
+    <link rel="stylesheet" href="styles/header-style.css" />
+    <link rel="stylesheet" href="styles/footer-style.css" />
+    <link rel="stylesheet" href="styles/section-style.css" />
+    <link rel="stylesheet" href="styles/subscribe-dialog.css" />
+    <link rel="stylesheet" href="styles/about-style.css" />
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        <img width="30" alt="logo" src="images/logo-olive-green.png" />
+        <h1 class="f title">Bloom Valley Nursery</h1>
+      </div>
+      <nav>
+        <ul class="f title">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="social.html">Social</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Community Involvements</h2>
+
+      <section>
+        <h3 class="f title">Gardening Challenge</h3>
+        <p>
+          Get Ready to Bloom! Join Bloom Valley Nursery's Gardening Challenge
+          and transform your garden into a beautiful oasis! For six weeks, we'll
+          challenge you to share your gardening journey, tips, and tricks with
+          our community. From clearing out debris to creating a stunning garden
+          makeover, we'll guide you every step of the way.
+        </p>
+
+        <h3 class="f title">Prizes</h3>
+        <p>
+          Win a grand prize of $500 gift card to Bloom Valley Nursery, a
+          personalized gardening consultation, and feature on our social media
+          channels! Plus, weekly prizes of Bloom Valley Nursery's products and
+          services.
+        </p>
+
+        <h3 class="f title">How to Participate:</h3>
+        <p>
+          Register for the challenge by submitting your name, email address, and
+          a brief description of your garden. Follow us on social media and
+          engage with the challenge by commenting, liking, and sharing posts.
+          Complete the weekly challenges and tasks, and share your progress on
+          social media using the hashtag #BloomValleyChallenge. Don't Miss Out!
+          Join the Gardening Challenge today and get ready to bloom! Visit us at
+          Bloom Valley Nursery to learn more and register for the challenge.
+        </p>
+
+        <dialog id="register-dialog">
+          <button>✖️</button>
+          <form action="#" method="dialog">
+            <!-- <label for="email">Email</label> -->
+            <p>Hey there, fellow gardening enthusiast!</p>
+            <p>By registering for this challenge, you'll receive:</p>
+            <ul>
+              <li>
+                Weekly gardening challenges and tasks to help you grow and
+                improve your skills
+              </li>
+              <li>
+                Exclusive access to expert advice and tips from our team of
+                gardening experts
+              </li>
+              <li>
+                Opportunities to connect with other gardeners and share your
+                experiences and tips
+              </li>
+              <li>
+                A chance to win prizes and recognition for your gardening
+                efforts
+              </li>
+            </ul>
+
+            <input
+              autofocus
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Name"
+              required
+              autocomplete="off"
+            />
+            <input
+              required
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+            />
+            <textarea
+              required
+              type="text"
+              name="description"
+              id="description"
+              placeholder="Description of your garden"
+              autocomplete="off"
+            ></textarea>
+            <input type="submit" value="Submit" />
+          </form>
+        </dialog>
+        <button id="register-button">Register for the challenge</button>
+      </section>
+    </main>
+
+    <footer>
+      <dialog id="subscribe-dialog">
+        <button>✖️</button>
+        <form action="#" method="dialog">
+          <p>Hey there, fellow gardening enthusiast!</p>
+          <p>
+            We're so glad you're interested in staying up-to-date on the latest
+            news, tips, and promotions from Bloom Valley Nursery! As a valued
+            member of our community, we'd love to keep you in the loop with
+            exclusive offers, new product releases, and expert advice to help
+            you grow your best garden yet.
+          </p>
+          <p>By subscribing to our email newsletter, you'll get:</p>
+          <p>
+            Early access to sales and promotions Tips and tricks from our expert
+            gardening team New product releases and special offers
+            Behind-the-scenes stories and garden inspiration
+          </p>
+          <p>
+            And, as a special thank you for joining our community, you'll
+            receive a 10% discount on your next purchase!
+          </p>
+          <input
+            autofocus
+            required
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            autocomplete="off"
+          />
+          <input type="submit" value="Submit" />
+        </form>
+      </dialog>
+      <button id="subcribe">Subscribe to our newsletter</button>
+
+      <nav>
+        <ul class="f body">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="social.html">Social</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <a href="#"><img src="images/facebook.svg" width="30" /></a>
+        <a href="#"><img src="images/instagram.svg" width="30" /></a>
+        <a href="#"><img src="images/youtube.svg" width="30" /></a>
+        <a href="#"><img src="images/twitter.svg" width="30" /></a>
+      </div>
+
+      <div>© 2024 Bloom Valley Nursery</div>
+    </footer>
+    <script src="newsletter-dialog.js"></script>
+    <script src="challenge-registration.js"></script>
+  </body>
+</html>

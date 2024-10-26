@@ -1,0 +1,76 @@
+[
+  {
+    "id": 1,
+    "category": "Trees",
+    "name": "Apple Tree",
+    "summary": "Indulge in the sweet taste of perfection with the 'Bloom Valley Bliss' Apple Tree! This low-maintenance, disease-resistant variety produces large, crisp apples with a hint of complexity. Enjoy a bountiful harvest of delicious fruit, plus stunning white flowers in the spring and vibrant fall colors. Perfect for small gardens or containers, this compact tree is easy to love and will bring joy to your outdoor space.",
+    "description": "",
+    "img": "images/Client1_AppleTree.png",
+    "price": 6.89
+  },
+  {
+    "id": 2,
+    "category": "Trees",
+    "name": "Birch Tree",
+    "img": "images/Client1_BirchTree.png",
+    "price": 7.45,
+    "summary": "Add a touch of elegance to your landscape with the 'Bloom Valley Birch' Tree! This stunning tree features white, papery bark that peels off in horizontal strips, revealing a smooth, silver-gray trunk. Its slender branches are adorned with delicate, lacy leaves that turn golden yellow in the fall. Perfect for adding a pop of color and texture to your garden, this tree is also a great choice for wildlife enthusiasts, as it provides a haven for birds and small mammals.",
+    "description": ""
+  },
+  {
+    "id": 3,
+    "category": "Trees",
+    "name": "Maple Tree",
+    "img": "images/Client1_MapleTree.png",
+    "summary": "Experience the beauty of the 'Bloom Valley Maple' Tree! This stunning tree features bright green leaves with 5-7 lobes, turning brilliant shades of orange, red, and yellow in the fall. Its sturdy branches are adorned with clusters of small, yellow flowers in the spring, followed by winged seeds that flutter to the ground. Perfect for adding a splash of color and interest to your landscape, this tree is also a great choice for shade and wildlife enthusiasts, as it provides a haven for birds and small mammals.",
+    "price": 8.45
+  },
+  {
+    "id": 4,
+    "category": "Plants",
+    "name": "Aloe Vera Plant",
+    "img": "images/Client1_AloePlant.png",
+    "summary": "Soften and soothe your skin with the 'Bloom Valley Aloe Vera' Plant! This low-maintenance succulent is packed with gel-filled leaves that can be used to calm burns, wounds, and skin irritations. Its thick, fleshy leaves are also a great natural remedy for sunburns and minor cuts. Perfect for indoor spaces, this plant is easy to care for and can thrive in a variety of lighting conditions.",
+    "price": 6.09
+  },
+  {
+    "id": 5,
+    "category": "Plants",
+    "name": "String of Pearls Plant",
+    "summary": "Add a touch of bohemian chic to your space with the 'Bloom Valley String of Pearls' Plant! This unique succulent features long, trailing stems covered in small, round \"pearls\" that resemble a string of beads. Its delicate, fleshy leaves are a great natural air purifier, and its stems can be easily trained to cascade down walls or containers. Perfect for indoor spaces, this plant is low-maintenance and can thrive in a variety of lighting conditions.",
+    "img": "images/Client1_StringofPearls.png",
+    "price": 12.99
+  },
+  {
+    "id": 6,
+    "category": "Plants",
+    "name": "Spider Plant",
+    "img": "images/Client1_SpiderPlant.png",
+    "summary": "Add a touch of whimsy to your space with the 'Bloom Valley Spider Plant'! This easy-to-care-for plant features delicate, variegated leaves that resemble a spider's web. Its long, trailing stems are perfect for hanging baskets or containers, and its baby plants (or \"spiderettes\") can be easily propagated to create new plants. Perfect for beginners, this plant is also great for air purification and can thrive in a variety of lighting conditions.",
+    "price": 8.45
+  },
+  {
+    "id": 7,
+    "category": "Garden",
+    "name": "Bird House",
+    "img": "images/Client1_BirdHouse.png",
+    "summary": "Attract birds to your backyard with the 'Bloom Valley Birdhouse'! This charming birdhouse features a spacious interior, a removable roof for easy cleaning, and a convenient hinged door for easy access. Its durable construction ensures it will withstand the elements, and its attractive design makes it a beautiful addition to any garden or yard. Perfect for attracting a variety of bird species, this birdhouse is a must-have for any bird enthusiast.",
+    "price": 16.99
+  },
+  {
+    "id": 8,
+    "category": "Garden",
+    "name": "Potting Soil",
+    "img": "images/Client1_PottingSoil.png",
+    "summary": "Give your plants the best start in life with the 'Bloom Valley Potting Soil'! This high-quality soil is specifically designed to promote healthy root growth, retain moisture, and repel pests. Its unique blend of natural ingredients and nutrients provides a balanced environment for your plants to thrive. Perfect for indoor or outdoor use, this potting soil is suitable for a wide range of plants and is easy to mix and use.",
+    "price": 11.99
+  },
+  {
+    "id": 9,
+    "category": "Garden",
+    "name": "Watering Can",
+    "img": "images/Client1_WateringCan.png",
+    "summary": "Make watering your plants a breeze with the 'Bloom Valley Watering Can'! This sturdy, ergonomic can features a comfortable handle and a long, curved spout that makes it easy to reach all areas of your plants. Its large capacity means you can water multiple plants at once, and its durable construction ensures it will withstand regular use. Perfect for indoor or outdoor use, this watering can is a must-have for any gardener.",
+    "price": 3.85
+  }
+]

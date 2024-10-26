@@ -1,0 +1,83 @@
+body section {
+  /* border: 1px solid var(--olive-green); */
+  margin: 8px;
+}
+
+body #client-highlights,
+body #shopping-promos,
+body #product-item-images,
+body #shopping-perks,
+body #categories {
+  display: block;
+  text-align: center;
+  padding: 0.5rem;
+  /* height: 40vh; */
+}
+body section ul li {
+  margin: 48px auto;
+  line-height: 20px;
+
+  max-width: 50rem;
+}
+h2 {
+  margin: 1.5rem;
+  background: linear-gradient(to right, var(--dark-brown), var(--autumn-leaf));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  font-weight: bold;
+  /* font-size: 1.5rem; */
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+h2::after {
+  content: "";
+  display: block;
+  width: 40%;
+  height: 5px;
+  margin: 0.5rem auto;
+  background: linear-gradient(to right, var(--dark-brown), var(--autumn-leaf));
+}
+
+#client-highlights ul li {
+  border: 1px solid var(--berry-blossom);
+  /* display: inline-block; */
+  padding: 12px 12px 12px 22px;
+  margin: 0.8em;
+  border-radius: 5px;
+  letter-spacing: 0.1em;
+  /* height: 160px; */
+  border-left: var(--berry-blossom) 0.4rem solid;
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+  color: var(--font-green);
+  line-height: 24px;
+}
+
+#client-highlights ul li::first-line {
+  font-size: 1.4em;
+  line-height: 36px;
+  word-spacing: 8px;
+}
+
+#client-highlights ul li span {
+  font-size: 1.2em;
+  margin: 12px;
+  float: right;
+  font-style: italic;
+}
+
+@media screen and (min-width: 840px) {
+  #client-highlights ul li {
+    display: inline-block;
+    width: 40%;
+    padding: 28px 18px 18px 36px;
+    margin: 1.2em;
+  }
+  body section {
+    /* border: 1px solid var(--olive-green); */
+    margin: 30px;
+  }
+}

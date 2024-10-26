@@ -1,0 +1,115 @@
+main p {
+  text-align: left;
+  max-width: 600px;
+  display: inline-block;
+  letter-spacing: 0.06em;
+  line-height: 1.2rem;
+}
+
+main {
+  text-align: center;
+}
+
+section {
+  text-align: center;
+  margin: auto;
+}
+
+h3 {
+  margin: 30px;
+}
+
+#register-button {
+  display: block;
+  margin: 28px auto;
+  padding: 12px;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  width: 300px;
+  box-shadow: 0 0 10px var(--olive-green);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+#register-button:hover {
+  box-shadow: 0 0 20px var(--olive-green);
+  transform: scale(1.03);
+  transition: all 0.2s ease;
+}
+
+::backdrop {
+  background-color: var(--dark-brown);
+  opacity: 0.75;
+}
+
+#register-dialog {
+  text-align: center;
+  margin: auto;
+}
+
+#register-dialog > button {
+  float: right;
+  border: 1px solid var(--olive-green);
+  border-radius: 12px;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  margin: 8px;
+}
+
+#register-dialog > form {
+  clear: both;
+  padding: 22px;
+}
+
+/* #register-dialog > form > label {
+  display: block;
+  text-align: left;
+} */
+
+#register-dialog > form > input,
+#description {
+  display: block;
+  margin: 12px auto;
+  padding: 12px;
+  width: 100%;
+  max-width: 20rem;
+  border: 1px solid var(--olive-green);
+  border-radius: 12px;
+}
+
+#register-dialog > form > input[type="submit"] {
+  cursor: pointer;
+}
+
+#register-dialog > form > input[type="submit"]:hover {
+  background-color: var(--beige);
+}
+
+#register-dialog > form > p,
+#register-dialog ul li {
+  text-align: left;
+  margin: 12px;
+  line-height: 20px;
+  list-style: square;
+  display: block;
+}
+
+#register-button {
+  background-color: var(--autumn-leaf);
+  border: none;
+  color: var(--beige);
+  border-radius: 12px;
+  padding: 12px;
+  cursor: pointer;
+  margin: 38px auto;
+  display: block;
+}
+
+#description {
+  height: 200px;
+  vertical-align: top;
+}

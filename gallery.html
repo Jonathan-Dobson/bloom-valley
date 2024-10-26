@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bloom Valley Nursery Gallery</title>
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="styles/font-style.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/header-style.css" />
+    <link rel="stylesheet" href="styles/footer-style.css" />
+    <link rel="stylesheet" href="styles/section-style.css" />
+    <link rel="stylesheet" href="styles/subscribe-dialog.css" />
+    <link rel="stylesheet" href="styles/gallery-style.css">
+
+
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        <img width="30" alt="logo" src="images/logo-olive-green.png" />
+        <h1 class="f title">Bloom Valley Nursery</h1>
+      </div>
+      <nav>
+        <ul class="f title">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="social.html">Social</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+
+    <dialog id="cart-dialog">
+      <button>✖️</button>
+      <table id="cart-table">
+        <thead class="">
+            <tr>
+              <td></td>
+            <td>Product</td>
+            <td>Price</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr id="dialog-row-template">
+              <td><button class="remove-button">
+                <img src="images/trash.svg" alt="remove" width="18"></td>
+              </button>
+
+            <td class="dialog-name">Apple Tree</td>
+            <td class="dialog-price">$5.00</td>
+          </tr>
+        </tbody>
+      </table>
+        <p class="f title">Total: <span id="cart-total">$0.00</span></p>
+
+        <p>
+
+        </p>
+        <form action="#" method="dialog">
+        <input type="reset" id="clear-cart" class="f body" value="Clear Cart" />
+        <input type="submit" value="Process Order" id="submit-order"/>
+      </form>
+    </dialog>
+    <button id="view-cart" class = 'f body'>View Shopping Cart</button>
+
+    <main>
+      <div id="categories"></div>
+      <table id="product-gallery">
+        <thead>
+
+          <tr>
+            <th></th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+
+          <tr id="product-template">
+            <td class="name f title">
+              Apple Tree
+            </td>
+            <td class="img"><img src="images/Client1_AppleTree.png" alt="Apple Tree" width="400"></td>
+            <td>
+              <p class="summary f subtitle">A beautiful red apple tree.
+              </p>
+            </td>
+            <td class="add">
+              <button class="add-to-cart f body"><span class="price">$5.00</span>&nbsp; Add to cart</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+
+
+    <footer>
+      <dialog id="subscribe-dialog">
+        <button>✖️</button>
+        <form action="#" method="dialog">
+          <!-- <label for="email">Email</label> -->
+          <p>Hey there, fellow gardening enthusiast!</p>
+          <p>
+            We're so glad you're interested in staying up-to-date on the latest
+            news, tips, and promotions from Bloom Valley Nursery! As a valued
+            member of our community, we'd love to keep you in the loop with
+            exclusive offers, new product releases, and expert advice to help
+            you grow your best garden yet.
+          </p>
+          <p>By subscribing to our email newsletter, you'll get:</p>
+          <p>
+            Early access to sales and promotions Tips and tricks from our expert
+            gardening team New product releases and special offers
+            Behind-the-scenes stories and garden inspiration
+          </p>
+          <p>
+            And, as a special thank you for joining our community, you'll
+            receive a 10% discount on your next purchase!
+          </p>
+          <input
+            autofocus
+            required
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            autocomplete="off"
+          />
+          <input type="submit" value="Submit" />
+        </form>
+      </dialog>
+      <button id="subcribe">Subscribe to our newsletter</button>
+
+      <nav>
+        <ul class="f body">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="social.html">Social</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <a href="#"><img src="images/facebook.svg" width="30" /></a>
+        <a href="#"><img src="images/instagram.svg" width="30" /></a>
+        <a href="#"><img src="images/youtube.svg" width="30" /></a>
+        <a href="#"><img src="images/twitter.svg" width="30" /></a>
+      </div>
+
+      <div>© 2024 Bloom Valley Nursery</div>
+    </footer>
+  <script defer src="newsletter-dialog.js"></script>
+  <script defer src="shopping-cart.js"></script>
+
+
+  </body>
+</html>

@@ -1,0 +1,62 @@
+:root {
+  --font-green: #00231c;
+  --font-red: #ac1724;
+  --font-grey: #c5c3c3;
+}
+
+h2,
+.f.display {
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+@media screen and (min-width: 600px) {
+  h2,
+  .f.display {
+    font-size: 40px;
+  }
+}
+
+.f.title.large {
+  font-family: "Arial", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.f.title,
+h1 {
+  font-family: "Arial", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+.f.subtitle {
+  font-family: "Comfortaa", sans-serif;
+  font-size: 15px;
+}
+textarea,
+input,
+.f.body.large {
+  font-family: "Calibri", sans-serif;
+  font-size: 20px;
+}
+table,
+footer button,
+.f.body.strong {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+section,
+dialog,
+li,
+p,
+div,
+.f.body {
+  font-family: "Calibri", sans-serif;
+  font-size: 16px;
+}
+
+.f.captions {
+  font-family: "Comfortaa", sans-serif;
+  font-size: 11px;
+}

@@ -1,0 +1,64 @@
+::backdrop {
+  background-color: var(--dark-brown);
+  opacity: 0.75;
+}
+
+#subscribe-dialog {
+  text-align: center;
+  margin: auto;
+}
+
+#subscribe-dialog > button {
+  float: right;
+  border: 1px solid var(--olive-green);
+  border-radius: 12px;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+#subscribe-dialog > form {
+  clear: both;
+}
+
+/* #subscribe-dialog > form > label {
+  display: block;
+  text-align: left;
+} */
+
+#subscribe-dialog > form > input {
+  display: block;
+  margin: 12px auto;
+  padding: 12px;
+  width: 100%;
+  max-width: 20rem;
+  border: 1px solid var(--olive-green);
+  border-radius: 12px;
+}
+
+#subscribe-dialog > form > input[type="submit"] {
+  cursor: pointer;
+}
+
+#subscribe-dialog > form > input[type="submit"]:hover {
+  background-color: var(--beige);
+}
+
+#subscribe-dialog > form > p {
+  text-align: left;
+  line-height: 20px;
+}
+
+#subcribe {
+  background-color: var(--autumn-leaf);
+  border: none;
+  color: var(--beige);
+  border-radius: 12px;
+  padding: 12px;
+  cursor: pointer;
+  margin: auto;
+  display: block;
+}

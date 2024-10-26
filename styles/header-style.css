@@ -1,0 +1,143 @@
+/* header */
+
+header h1 {
+  display: inline;
+  color: var(--olive-green);
+  margin: 0.7rem;
+  vertical-align: middle;
+}
+
+#logo img {
+  vertical-align: middle;
+}
+
+header {
+  display: block;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+#logo {
+  text-align: justify;
+  display: inline-block;
+  text-align: center;
+}
+
+/* nav */
+header nav {
+  float: none;
+  padding: 12px;
+}
+
+@media screen and (min-width: 740px) {
+  header nav {
+    float: right;
+    margin: -12px;
+  }
+  header,
+  #logo {
+    text-align: justify;
+  }
+  header {
+    box-shadow: var(--olive-green) 0px 0px 10px;
+    position: sticky;
+    top: 0;
+    background-color: var(--beige);
+    z-index: 100;
+  }
+}
+@media screen and (min-width: 440px) {
+  header nav ul li {
+    display: inline;
+  }
+}
+
+header nav ul li {
+  /* display: inline; */
+  color: var(--olive-green);
+  padding: 0.5rem;
+  list-style: none;
+}
+
+/* nav achors */
+
+header nav ul li a {
+  color: var(--font-green);
+  text-decoration: none;
+  padding-left: 0.3rem;
+  margin: 0.3rem;
+}
+
+header nav ul li a:hover {
+  color: var(--berry-blossom);
+}
+header nav ul li a::before {
+  content: " ";
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  border-left: var(--berry-blossom) 0px solid;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+
+header nav ul li a:hover::before {
+  content: " ";
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  border-left: var(--berry-blossom) 60px solid;
+  opacity: 0.8;
+}
+
+nav ul li a:active {
+  color: var(--dark-brown);
+}
+
+/* nav {
+  width: 100%;
+  border: 1px solid var(--olive-green);
+}
+nav ul li {
+  display: inline-block;
+  color: var(--olive-green);
+  font-size: 1.5rem;
+  border: 1px solid var(--olive-green);
+  visibility: hidden;
+}
+
+nav ul li a {
+  color: var(--olive-green);
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: var(--berry-blossom);
+}
+
+nav ul li a:active {
+  color: var(--dark-brown);
+}
+
+nav ul li#logo {
+  visibility: visible;
+  text-align: center;
+  display: block;
+}
+
+nav #logo img {
+  width: 1rem;
+}
+
+body {
+  background: var(--beige);
+}
+
+@media screen and (min-width: 600px) {
+  nav {
+    visibility: visible;
+  }
+  nav ul li#logo {
+    float: left;
+  }
+} */

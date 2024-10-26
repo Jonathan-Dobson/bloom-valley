@@ -1,0 +1,36 @@
+footer {
+  background-color: var(--dark-brown);
+  padding: 2rem;
+  box-shadow: var(--olive-green) 0px 0px 10px;
+}
+
+footer * {
+  margin: 0.5rem;
+  text-align: center;
+}
+
+footer nav ul li {
+  /* display: inline; */
+  margin: 0.8rem;
+  padding: 10px;
+  list-style: none;
+}
+
+footer nav ul li a {
+  color: var(--font-grey);
+}
+
+footer nav ul li a:hover {
+  color: var(--font-grey);
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 540px) {
+  footer nav ul li {
+    display: inline;
+  }
+  footer nav {
+    margin: 3rem 1rem;
+  }
+}
