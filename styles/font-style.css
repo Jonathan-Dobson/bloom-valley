@@ -2,6 +2,7 @@
   --font-green: #00231c;
   --font-red: #ac1724;
   --font-grey: #c5c3c3;
+  color: var(--font-green);
 }
 
 h2,

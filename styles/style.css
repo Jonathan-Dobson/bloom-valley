@@ -32,8 +32,17 @@ a {
 
 #hero-image {
   margin: 0;
-  width: 100vw;
+  /* width: 100vw; */
   text-align: center;
+}
+
+#hero-image img {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 40vh;
+  object-fit: cover;
 }
 @media screen and (min-width: 740px) {
   #hero-image img {
@@ -41,10 +50,16 @@ a {
     top: 0;
     left: 0;
     width: 100vw;
-    height: 75vh;
+    height: 60vh;
   }
 }
 
+#hero-image h1 {
+  position: relative;
+  /* top: -200px; */
+  margin: -100px auto 80px auto;
+  color: white;
+}
 #hero-image p {
   margin: 30px 30px;
   padding: 20px;
@@ -57,4 +72,13 @@ a {
 
 p::first-line {
   font-size: 1.3rem;
+}
+
+#hero-image h1::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 90px;
+  margin: -58px auto;
+  background: linear-gradient(to right, var(--dark-brown), var(--autumn-leaf));
 }
