@@ -68,7 +68,8 @@ header nav ul li a {
   margin: 0.3rem;
 }
 
-header nav ul li a:hover {
+header nav ul li a:hover,
+.current {
   color: var(--berry-blossom);
 }
 header nav ul li a::before {
@@ -92,6 +93,10 @@ header nav ul li a:hover::before {
 
 nav ul li a:active {
   color: var(--dark-brown);
+}
+
+.current:hover::before {
+  border: none;
 }
 
 /* nav {
